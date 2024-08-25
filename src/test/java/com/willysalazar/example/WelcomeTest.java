@@ -23,6 +23,7 @@ public class WelcomeTest extends BaseTest {
         LOGGER.info("Title found: " + titleWelcome);
     }
 
+    //Added comment to test git changes
     @Test
     public void shouldValidateSubTitleAvailableExamples() {
         String titleWelcome = welcomePage.getTextSubTitleAvailable();
